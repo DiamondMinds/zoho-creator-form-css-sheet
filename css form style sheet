@@ -1,0 +1,28 @@
+//Opens the style of the form is needed before every css statement
+css = "<style>";
+// Background of form header
+css = css + ".form-header {background: #228b22;}";
+// Font colour of form header
+css = css + ".form-title {color: blue !important;}";
+// Font size of section header
+css = css + ".form-title {font-size: 50px !important;}";
+// Font colour of section header
+css = css + ".form-section h2 label.section-label {color: #228b22;}";
+// Padding size of section label
+css = css + ".form-section h2 label.section-label {padding: 50px;}";
+// Colour of options in a form
+css = css + ".zc-Radio-group .choice-table-row{color: yellow;}";
+// Background colour of section header
+css = css + ".form-section h2 label.section-label {background: red;}";
+// Rounded fields with shadow
+css = css + ".form-control {border-radius: 10px; box-shadow: 1px 1px 5px grey;}";
+// Radio selector horisontal 
+css = css + ".zc-Radio-group .choice-table-row{display:inline-block !important;padding:0;}";
+// Removes the radio title
+css = css + ".zc-Radio-group label.choice-label-text{display:block !important;}";
+//Removes the radio circles to make user press the button
+css = css + ".zc-Radio-group label{display:none !important;}";
+//Closes the style of the form is needed after every css statement
+css = css + "</style>";
+//This puts the css on the form as part of the notes section
+input.Note_CSS = css;
