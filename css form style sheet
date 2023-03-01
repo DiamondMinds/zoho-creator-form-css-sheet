@@ -4,12 +4,20 @@ css = "<style>";
 css = css + ".form-header {background: #228b22;}";
 // Font colour of form header
 css = css + ".form-title {color: blue !important;}";
+// Changes text to bold
+css = css + ".form-title {bold: true !important;}";
 // Font size of section header
 css = css + ".form-title {font-size: 50px !important;}";
 // Font colour of section header
 css = css + ".form-section h2 label.section-label {color: #228b22;}";
+// Different fonts
+css = css + ".form-section h2 label.section-label {font-family: Georgia, serif;}";
 // Padding size of section label
 css = css + ".form-section h2 label.section-label {padding: 50px;}";
+// Outline 
+css = css + ".form-section h2 label.section-label {border: 10px solid #1C6EA4;}";
+// Underline
+css = css + ".form-section h2 label.section-label {text-decoration-line: underline; text-decoration-color: white;}";
 // Colour of options in a form
 css = css + ".zc-Radio-group .choice-table-row{color: yellow;}";
 // Background colour of section header
